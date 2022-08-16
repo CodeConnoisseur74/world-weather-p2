@@ -84,4 +84,16 @@ body {
     top: 0;
     left: 20px;
   }
+
+.attritubute {
+  position: relative;
+  font-size: x-small;
+}
+
+.logo a {
+  color: white;
+}
+
+
+
   
