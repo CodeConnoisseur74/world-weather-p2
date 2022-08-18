@@ -52,14 +52,14 @@ World Weather is a weather website where the user can search for the current wea
 
 * the city that is searched, will bring up a random image from unsplash. com along with the weather information corresponding with the city choice. 
 
-![Home page])
+[![Weather Home Page Search Results](images/weather-home-london.png)]
 
 #### Name of feature
 
 * Description of feature and benefit
 * Description of feature and benefit
 
-![](vscode-remote://codeconnois-worldweathe-ogsu9djgk7y.ws-eu61.gitpod.io/workspace/world-weather-p2/assets/images/weather-home-london.png)
+[![(vscode-remote://codeconnois-worldweathe-ogsu9djgk7y.ws-eu61.gitpod.io/workspace/world-weather-p2/assets/images/weather-home-london.png)] 
 
 ### Features Left to Implement
 
