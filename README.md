@@ -1,8 +1,8 @@
 # **WORLD WEATHER**
 
-![Live Project Mockup](path to mockup image goes here)
+![Live Project Mockup](assets/images/ami-i-respnsive.png)
 
-[Link to Live Project](link to live site goes here)
+[Link to Live Project](https://codeconnoisseur74.github.io/world-weather-p2/)
 
 ## Table of Contents
 - [Introduction](#introduction)
