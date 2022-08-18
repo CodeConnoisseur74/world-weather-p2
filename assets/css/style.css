@@ -10,6 +10,8 @@ body {
   font-size: 120%;
 }
 
+<!--Current Weather Data Flex Box-->
+
 .box {
   background: #000000d0;
   color: white;
@@ -20,6 +22,8 @@ body {
   margin: 1em;
 }
 
+<!--OpenWeather.org link colour--> 
+
 .attribute a {
   color: white;
 }
@@ -29,6 +33,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+<!--search capabilities and styling-->
 
 button {
   margin: 0.5em;
@@ -73,6 +79,8 @@ h1.temp {
   text-transform: capitalize;
   margin-left: 8px;
 }
+
+<!--weather search behaviour and functions--> 
 
 .weather.loading {
   visibility: hidden;
