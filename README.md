@@ -52,18 +52,18 @@ World Weather is a weather website where the user can search for the current wea
 
 * the city that is searched, will bring up a random image from unsplash. com along with the weather information corresponding with the city choice. 
 
-[![Weather Home Page Search Results](images/weather-home-london.png)]
+![Weather Home Page Search Results](assets/images/weather-home-london.png)
 
-#### Name of feature
+#### Current Weather Data
 
-* Description of feature and benefit
-* Description of feature and benefit
+* Current weather data is displayed showing: tempraturein celcius, cloud status, windspeed and humidity. 
+* Weather Data is current and a quick refresh of the browser updates the weather data for chosen city through the search option.
 
-[![(vscode-remote://codeconnois-worldweathe-ogsu9djgk7y.ws-eu61.gitpod.io/workspace/world-weather-p2/assets/images/weather-home-london.png)] 
+![Weather Home Page Search Results](assets/images/weather-home.png)
 
 ### Features Left to Implement
 
-* Describe some features that we would like to implement in the future
+* The feature to automatically refresh weather data for selected city so the user does not have to manually refresh the browser in order to update the current weather data. 
 
 ## Technologies Used
 
@@ -73,11 +73,31 @@ World Weather is a weather website where the user can search for the current wea
 ### Frameworks, Libraries & Programs Used
 
 * [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/) has been used to assist with the styling of the site and particularly the responsiveness.
-* List other frameworks we have used.
+* [Node.js](https://nodejs.org/en/) has been used to assist JavaScript with implimentation of the website capabilities to fetch and recieve weather data and corresponding images on the website. 
+* [OpenWeatherMap](https://openweathermap.org/guide) has been used to create the API Access Key and API in order to fetch current weather data.
+* [Unsplash](https://unsplash.com/documentation#list-collections) has been used to provide the Corresponding City images for the website. 
+* [The W3C Markup Validator](https://validator.w3.org/#validate_by_input) has been used to validate the html code.
+* [The W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to validate the CSS code. 
+* [JShint](https://jshint.com/) has been used to validate the JavaScript code.
 
 ## Testing
 
-Details about the testing we have carried out.
+The W3C Markup Validator showed no errors when validating the html code. 
+
+![W3S HTML Validation](assets/images/html-validate.png)
+
+The W3C Jigsaw CSS Validator showed no errors when validating the CSS code.
+
+![W3S Jigsaw CSS Validation](assets/images/js-validate.png)
+
+The jsHint validator initially showed over 12 warnings regarding the validity of the JavaScript code. This was a known issue regarding the "ES6 version" in VScode. Updating the settings.JSON file in VS code rectified this. 
+
+![settings.JSON in VScode](assets/images/fix-jshint-json.png)
+
+The JSHint then showed no errors when validating the JavaScript code. 
+
+![JShint](assets/images/js-validate.png)
+
 
 ## Deployment
 
@@ -110,17 +130,19 @@ The following steps can be used to clone the GitHub repository:
 
 ## Credits
 
+* R3HAB MEDIA youtube video on fixing the JS hint issue regarding the settings.JSON file.[YouTube](https://www.youtube.com/watch?v=QDzeU1FUZRk)
+
 ### Code
 
-* Credit and articles etc that we have copied code from
+* [10 JavaScript project Ideas for beginners](https://www.makeuseof.com/javascript-beginner-project-ideas/)
 
 ### Content
-* credit fonts and font awesome icons etc
-* Credit and sites we have taken information from
+* [GSStatic](https://fonts.gstatic.com) Icons and Font Styles.
+* [Google Fonts](https://fonts.googleapis.com/css2?family=Open+Sans&display=swap)
 
 ### Media
-* Credit images used
-
+* 
+ [Unsplash](https://unsplash.com/documentation#list-collections)Screen Images, API and Access Key for fetching images that correspond with the User input of City search.
 ### Other
 
-* Any other credits
+* [Ami I Responsive?](https://ui.dev/amiresponsive) Testing the Responsive design of the Website. 
