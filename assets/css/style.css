@@ -3,10 +3,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  max-width: 100%;
   margin: 0;
+  padding:0%;
   font-family: 'Open Sans', sans-serif;
   background: #222;
   background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  background-size: cover;
+  background-position: center, center;
   font-size: 120%;
 }
 
@@ -26,8 +30,8 @@ body {
 
 .search {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -88,6 +92,3 @@ h1.temp {
   top: 0;
   left: 20px;
 }
-
-
-  
