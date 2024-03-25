@@ -15,11 +15,15 @@
     - [Current Weather Data](#current-weather-data)
       - [Random image of current city](#random-image-of-current-city)
       - [Current Weather Data](#current-weather-data-1)
+    - [Performance](#performance)
+    - [Security](#security)
     - [Features Left to Implement](#features-left-to-implement)
-  - [Technologies Used](#technologies-used)
+    - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
   - [Testing](#testing)
+    - [W3S Jigsaw CSS Validator](#w3s-jigsaw-css-validator)
+    - [JSHint Validation](#jshint-validation)
   - [Deployment](#deployment)
     - [GitHub Pages](#github-pages)
     - [Forking the GitHub Repository](#forking-the-github-repository)
@@ -38,19 +42,24 @@ World Weather is a weather website where the user can search for the current wea
 * Fixed responsiveness in CSS with adding: background-size: cover;
   background-position: center, center; to the body element in styles.css.
 
-* 
+* Fixed Favicon error by utilizing ![favicon.io](![Weather Home Page Search Results](assets/images/weather-home-london.png))
 
+* Fixed links opening up into new windows by removing the lines rel='noopener noreferrer" target="_blank" from index.html.
+
+* Git commits were too few and not detailed in the description. The updated version has well written commits that are more detailed and easier to follow. 
+  
+* Comments are added to styles.css
  
 [The live project can be found here.](https://codeconnoisseur74.github.io/world-weather-p2/)
 ## UX
 
 ### User Stories
 
-| ID | As a... | I Want To Be Able To... | So That I Can...|
-| --- | --- | --- | --- |
-| 01 | As a traveler | quick access to weather in major cities | can quickly receive up to date weather forecasts for quick and easy travel planning. |
-| 02 | young user | access quick weather info | enjoying the random images that appear in realtime for major cities around the world I hope to visit one day. |
-| 03 | office manager| using the website on the plasma screen in the lounge of the office | esthetically pleasing image of local city with current weather conditions |
+| ID  | As a...        | I Want To Be Able To...                                            | So That I Can...                                                                                              |
+| --- | -------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| 01  | As a traveler  | quick access to weather in major cities                            | can quickly receive up to date weather forecasts for quick and easy travel planning.                          |
+| 02  | young user     | access quick weather info                                          | enjoying the random images that appear in realtime for major cities around the world I hope to visit one day. |
+| 03  | office manager | using the website on the plasma screen in the lounge of the office | esthetically pleasing image of local city with current weather conditions                                     |
 
 ## Features
 
@@ -72,11 +81,29 @@ World Weather is a weather website where the user can search for the current wea
 
 ![Weather Home Page Search Results](assets/images/weather-home.png)
 
+### Performance
+
+Testing performace using Lighthouse within Google Chrome Developer Tools was not implimented in the previos version of the website. 
+
+The first Lighthouse test was performed using the local host:
+
+![Lighthouse local host](assets/images/lighthouse-performance-100.png) 
+
+The second Lighthouse test was performed using the deloyed website:
+
+![Lighthouse local host](assets/images/lighthouse-performance-responsive.png) 
+
+### Security
+
+The security of the website was tested using the security section of Google Chrome Developer tools:
+
+![Lighthouse local host](assets/images/security.png) 
+
 ### Features Left to Implement
 
 * The feature to automatically refresh weather data for selected city so the user does not have to manually refresh the browser in order to update the current weather data. 
 
-## Technologies Used
+### Technologies Used
 
 ### Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/CSS), [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
@@ -97,18 +124,27 @@ The W3C Markup Validator showed no errors when validating the html code.
 
 ![W3S HTML Validation](assets/images/html-validate.png)
 
-The W3C Jigsaw CSS Validator showed no errors when validating the CSS code.
+Update: Upon updating the index.html, the W3C Markup Validator indicated trailing slash errors and a missing attribute in the link element:
 
-![W3S Jigsaw CSS Validation](assets/images/js-validate.png)
+![W3S HTML Validation](assets/images/wc3-html-errors.png)
+
+The following resource assisted in solving these issues:
+
+A link element with a "rel" attribute that contains the value "preload"must have an "as" attribute.[Rocket Validator](https://rocketvalidator.com/html-validation/a-link-element-with-a-rel-attribute-that-contains-the-value-preload-must-have-an-as-attribute)
+
+### W3S Jigsaw CSS Validator
+
+The W3S Jigsaw CSS Validator showed no errors when validating the CSS code:
+
+![W3S Jigsaw CSS Validation](assets/images/wc3-validator.png)
+
+### JSHint Validation
 
 The jsHint validator initially showed over 12 warnings regarding the validity of the JavaScript code. This was a known issue regarding the "ES6 version" in VScode. Updating the settings.JSON file in VS code rectified this. 
 
-![settings.JSON in VScode](assets/images/fix-jshint-json.png)
+![JSHint Validation](assets/images/js-validate.png)
 
 The JSHint then showed no errors when validating the JavaScript code. 
-
-![JShint](assets/images/js-validate.png)
-
 
 ## Deployment
 
