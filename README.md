@@ -1,36 +1,47 @@
 # **WORLD WEATHER**
 
-![Live Project Mockup](assets/images/ami-i-respnsive.png)
+![Live Project Mockup](assets/images/am-i-responsive-updated.png)
 
 [Link to Live Project](https://codeconnoisseur74.github.io/world-weather-p2/)
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [UX](#ux)
-  - [User Stories](#user-stories)
-  - [Wireframes](#wireframes)
-- [Features](#features)
-  - [Existing Features](#existing-features)
-  - [Features Left to Implement](#features-left-to-implement)
-- [Technologies Used](#technologies-used)
-  - [Languages Used](#languages-used)
-  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-- [Testing](#testing)
-- [Deployment](#deployment)
-  - [GitHub](#github-pages)
-  - [Forking the GitHub Repository](#forking-the-github-repository)
-  - [Cloning the GitHub Repository](#cloning-the-github-repository)
-- [Credits](#credits)
-  - [Code](#code)
-  - [Content](#content)
-  - [Media](#media)
-  - [Other](#other)
+- [**WORLD WEATHER**](#world-weather)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Updates](#updates)
+  - [UX](#ux)
+    - [User Stories](#user-stories)
+  - [Features](#features)
+    - [Current Weather Data](#current-weather-data)
+      - [Random image of current city](#random-image-of-current-city)
+      - [Current Weather Data](#current-weather-data-1)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+    - [GitHub Pages](#github-pages)
+    - [Forking the GitHub Repository](#forking-the-github-repository)
+    - [Cloning the GitHub Repository](#cloning-the-github-repository)
+  - [Credits](#credits)
+    - [Code](#code)
+    - [Content](#content)
+    - [Media](#media)
+    - [Other](#other)
 
 ## Introduction
 World Weather is a weather website where the user can search for the current weather by city. The background image correspods with a random image of that city is fetched from unsplash.com. Current weather information includes: temprature in celcius, cloud status, humidity and windspeed. This weather data is fetched from openweatherapp.org. The site allows the user to quickly access current weather information of any major city worldwide whilst a corresponding image is provided to the user in realtime. The site is responsive to any size desktop, tablet or smartphone device. 
 
+## Updates
+
+* Fixed responsiveness in CSS with adding: background-size: cover;
+  background-position: center, center; to the body element in styles.css.
+
+* 
+
  
-[The live project can be found here.]()
+[The live project can be found here.](https://codeconnoisseur74.github.io/world-weather-p2/)
 ## UX
 
 ### User Stories
@@ -132,17 +143,24 @@ The following steps can be used to clone the GitHub repository:
 
 * R3HAB MEDIA youtube video on fixing the JS hint issue regarding the settings.JSON file.[YouTube](https://www.youtube.com/watch?v=QDzeU1FUZRk)
 
-### Code
+* JSHint ES6 errors fix.[How do I resolve these JSHINT ES6 errors](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360000112510-How-do-I-resolve-these-JSHint-ES6-errors)
 
+*  A link element with a "rel" attribute that contains the value "preload"must have an "as" attribute.[Rocket Validator](https://rocketvalidator.com/html-validation/a-link-element-with-a-rel-attribute-that-contains-the-value-preload-must-have-an-as-attribute)
+
+* Adding Google Fonts API.[Get Started with the Google Fonts APII](https://developers.google.com/fonts/docs/getting_started)
+
+### Code
 * [10 JavaScript project Ideas for beginners](https://www.makeuseof.com/javascript-beginner-project-ideas/)
 
 ### Content
-* [GSStatic](https://fonts.gstatic.com) Icons and Font Styles.
-* [Google Fonts](https://fonts.googleapis.com/css2?family=Open+Sans&display=swap)
+* [GStatic](https://fonts.gstatic.com) Icons and Font Styles.
+* [Google Fonts](https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap) DM Serif Display
 
 ### Media
-* 
- [Unsplash](https://unsplash.com/documentation#list-collections)Screen Images, API and Access Key for fetching images that correspond with the User input of City search.
+* [Unsplash](https://unsplash.com/documentation#list-collections) Screen Images, API and Access Key for fetching images that correspond with the User input of City search.
+
+* [favicon](https://favicon.io/) Favicon generator.
+
 ### Other
 
 * [Ami I Responsive?](https://ui.dev/amiresponsive) Testing the Responsive design of the Website. 
